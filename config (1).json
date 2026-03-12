@@ -1,0 +1,94 @@
+{
+  "_comment": "╔══════════════════════════════════════════════════════╗",
+  "_comment2": "║  ملف الإعدادات - عدّل هنا وارفع على GitHub          ║",
+  "_comment3": "╚══════════════════════════════════════════════════════╝",
+
+  "site": {
+    "university": "جامعة العلوم والتكنولوجيا الأردنية",
+    "welcomeText": "أهلاً طالب العلاج الوظيفي 👋"
+  },
+
+  "whatsappContacts": [
+    {
+      "name": "مجموعة السنة الأولى",
+      "number": "962XXXXXXXXX"
+    },
+    {
+      "name": "مجموعة السنة الثانية",
+      "number": "962XXXXXXXXX"
+    },
+    {
+      "name": "مجموعة السنة الثالثة",
+      "number": "962XXXXXXXXX"
+    },
+    {
+      "name": "مجموعة السنة الرابعة",
+      "number": "962XXXXXXXXX"
+    }
+  ],
+
+  "announcements": [
+    {
+      "id": "notif_001",
+      "title": "اختبار منتصف الفصل",
+      "body": "الاختبار يوم الأربعاء الساعة 10 صباحاً في قاعة A101",
+      "priority": "high",
+      "date": "2025-04-15",
+      "active": true
+    },
+    {
+      "id": "notif_002",
+      "title": "تسليم التقرير",
+      "body": "آخر موعد لتسليم تقرير التدريب السريري",
+      "priority": "med",
+      "date": "2025-04-20",
+      "active": true
+    },
+    {
+      "id": "notif_003",
+      "title": "عطلة رسمية",
+      "body": "الجامعة مغلقة يوم الخميس والجمعة",
+      "priority": "low",
+      "date": "2025-04-17",
+      "active": true
+    }
+  ],
+
+  "doctors": [
+    {
+      "name": "د. اسم الدكتور",
+      "rank": "أستاذ مشارك",
+      "email": "doctor@just.edu.jo",
+      "isHead": true
+    },
+    {
+      "name": "د. اسم آخر",
+      "rank": "أستاذ مساعد",
+      "email": "doctor2@just.edu.jo"
+    }
+  ],
+
+  "labTechnicians": [
+    {
+      "name": "اسم الفني",
+      "rank": "فني مختبر",
+      "email": "tech@just.edu.jo"
+    }
+  ],
+
+  "quotes": [
+    "العلاج الوظيفي يُعيد الحياة لأصحابها 💚",
+    "كل مريض قصة نجاح بانتظار كاتبها 🌟",
+    "المثابرة طريق التميز في الطب التأهيلي 🎓",
+    "اليوم تعلّم، غداً تُغيّر حياة إنسان ✨"
+  ],
+
+  "features": {
+    "showCalendar":    true,
+    "showGPA":         true,
+    "showAssignments": true,
+    "showProgress":    true,
+    "showSchedule":    true,
+    "showEmails":      true
+  }
+}
