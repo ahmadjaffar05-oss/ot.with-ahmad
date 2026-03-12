@@ -1,94 +1,169 @@
 {
-  "_comment": "╔══════════════════════════════════════════════════════╗",
-  "_comment2": "║  ملف الإعدادات - عدّل هنا وارفع على GitHub          ║",
-  "_comment3": "╚══════════════════════════════════════════════════════╝",
+  "_readme": "هذا الملف هو لوحة تحكم الأدمن — عدّل أي قيمة واحفظ وسيتحدث الموقع تلقائياً",
+  "_version": "1.0.0",
 
   "site": {
-    "university": "جامعة العلوم والتكنولوجيا الأردنية",
-    "welcomeText": "أهلاً طالب العلاج الوظيفي 👋"
+    "title": "داشبورد طالب العلاج الوظيفي",
+    "university": "جامعة التكنو ",
+    "department": "قسم العلاج الوظيفي",
+    "welcomeText": "طالب العلاج الوظيفي"   
+    "university": "اسم جامعتك هنا",
+  "welcomeText": "طالب العلاج الوظيفي"
+}
   },
-
-  "whatsappContacts": [
-    {
-      "name": "مجموعة السنة الأولى",
-      "number": "0780566262"
-    },
-    {
-      "name": "مجموعة السنة الثانية",
-      "number": "962XXXXXXXXX"
-    },
-    {
-      "name": "مجموعة السنة الثالثة",
-      "number": "962XXXXXXXXX"
-    },
-    {
-      "name": "مجموعة السنة الرابعة",
-      "number": "962XXXXXXXXX"
-    }
-  ],
 
   "announcements": [
     {
-      "id": "notif_001",
-      "title": "اختبار منتصف الفصل",
-      "body": "الاختبار يوم الأربعاء الساعة 10 صباحاً في قاعة A101",
-      "priority": "high",
-      "date": "2025-04-15",
-      "active": true
-    },
-    {
-      "id": "notif_002",
-      "title": "تسليم التقرير",
-      "body": "آخر موعد لتسليم تقرير التدريب السريري",
-      "priority": "med",
-      "date": "2025-04-20",
-      "active": true
-    },
-    {
-      "id": "notif_003",
-      "title": "عطلة رسمية",
-      "body": "الجامعة مغلقة يوم الخميس والجمعة",
+      "id": "ann-001",
+      "title": "مرحباً بكم في الداشبورد",
+      "body": "يمكنكم متابعة جميع المواد والجداول والإشعارات من هنا.",
       "priority": "low",
-      "date": "2025-04-17",
+      "date": "2025-09-01",
+      "active": true
+    },
+    {
+      "id": "ann-002",
+      "title": "مرحبا شباب الي دخل قروب التلغرام تاع بشار يدخل واي حدا عنده مشاكل ياريت يبعثلي وهذا رسالة للتجريب وانت حشمين وامنكم ك الطيب",
+      "body": "هذه رسالة اختبار — إذا شفتها يعني نظام الإشعارات شغال بشكل صحيح ✅",
+      "priority": "high",
+      "date": "2026-03-08",
       "active": true
     }
   ],
 
   "doctors": [
-    {
-      "name": "د. اسم الدكتور",
-      "rank": "أستاذ مشارك",
-      "email": "doctor@just.edu.jo",
-      "isHead": true
-    },
-    {
-      "name": "د. اسم آخر",
-      "rank": "أستاذ مساعد",
-      "email": "doctor2@just.edu.jo"
-    }
+    { "name": "د. محمد الوردات",  "email": "msalwardat@just.edu.jo", "rank": "رئيس القسم · أستاذ مشارك", "isHead": true },
+    { "name": "د. فداء المومني",  "email": "falmomani@just.edu.jo",  "rank": "أستاذ" },
+    { "name": "د. خضر المهداوي", "email": "khader@just.edu.jo",     "rank": "أستاذ" },
+    { "name": "د. محمد نزال",    "email": "msnazzal@just.edu.jo",   "rank": "أستاذ مشارك" },
+    { "name": "د. علاء جبر",     "email": "afjaber@just.edu.jo",    "rank": "أستاذ مساعد" },
+    { "name": "د. نور إسماعيل",  "email": "ntismael@just.edu.jo",   "rank": "أستاذة مساعدة" },
+    { "name": "د. قصي عبيدات",   "email": "qmobeidat4@just.edu.jo", "rank": "أستاذ مساعد" }
   ],
 
   "labTechnicians": [
-    {
-      "name": "اسم الفني",
-      "rank": "فني مختبر",
-      "email": "tech@just.edu.jo"
-    }
+    { "name": "هاني الديري",      "email": "hmd@just.edu.jo" },
+    { "name": "سلمى شقير",       "email": "smshqair@just.edu.jo" },
+    { "name": "سيرين الشدفان",   "email": "szalshadafan@just.edu.jo" }
   ],
 
-  "quotes": [
-    "العلاج الوظيفي يُعيد الحياة لأصحابها 💚",
-    "كل مريض قصة نجاح بانتظار كاتبها 🌟",
-    "المثابرة طريق التميز في الطب التأهيلي 🎓",
-    "اليوم تعلّم، غداً تُغيّر حياة إنسان ✨"
+  "whatsappContacts": [
+    { "name": "أحمد جعفر", "number": "0790566262", "label": "تواصل مع المساعد" }
   ],
+
+  "quickLinks": [
+    { "title": "خدمات الطالب",   "url": "https://services.just.edu.jo/stuservices/",              "icon": "🎓", "color": "teal" },
+    { "title": "E-Learning",      "url": "https://elearn.just.edu.jo/current/my/courses.php",       "icon": "💻", "color": "gold" },
+    { "title": "الجدول الدراسي", "url": "https://services.just.edu.jo/courseschedule/",            "icon": "📅", "color": "purple" }
+  ],
+
+  "courseResources": {
+    "علوم الأعصاب (١)": [
+      { "title": "قناة بشار آل خطاب — علوم الأعصاب", "url": "https://t.me/+1tUsPdpfBgY0ODJk", "desc": "تيليغرام · السنة الثانية" }
+    ],
+    "إحصاء حيوي": [
+      { "title": "قناة أحمد العلي — الإحصاء الحيوي", "url": "https://t.me/+aQP-VQxpX-c5Yzhk", "desc": "تيليغرام · السنة الثانية" }
+    ]
+  },
+
+  "semesters": {
+    "1-1": [
+      { "name": "بيولوجيا عامة",                   "type": "theory" },
+      { "name": "فيزياء عامة",                     "type": "theory" },
+      { "name": "كيمياء عامة",                     "type": "theory" },
+      { "name": "متطلب جامعة إجباري (١)",           "type": "extra"  },
+      { "name": "متطلب جامعة إجباري (٢)",           "type": "extra"  },
+      { "name": "متطلب جامعة إجباري (٣)",           "type": "extra"  }
+    ],
+    "1-2": [
+      { "name": "مقدمة في العلاج الوظيفي",          "type": "theory" },
+      { "name": "المهارات الحياتية",                "type": "theory" },
+      { "name": "اللغة العربية ومهارات الاتصال",    "type": "theory" },
+      { "name": "بيولوجيا عامة (عملي)",             "type": "lab"    },
+      { "name": "تشريح وأنسجة",                    "type": "theory" },
+      { "name": "تشريح وأنسجة (عملي)",             "type": "lab"    },
+      { "name": "فسيولوجيا الإنسان",               "type": "theory" },
+      { "name": "فسيولوجيا الإنسان (عملي)",         "type": "lab"    },
+      { "name": "العلوم العسكرية",                  "type": "extra"  }
+    ],
+    "2-1": [
+      { "name": "تشريح الجهاز العضلي والهيكل العظمي",        "type": "theory" },
+      { "name": "تشريح الجهاز العضلي والهيكل العظمي (عملي)", "type": "lab"    },
+      { "name": "البيوميكانيكا",                             "type": "theory" },
+      { "name": "أساسيات العلاج الوظيفي",                   "type": "theory" },
+      { "name": "أساسيات العلاج الوظيفي (عملي)",             "type": "lab"    },
+      { "name": "التقييم في العلاج الوظيفي",                 "type": "theory" },
+      { "name": "التقييم في العلاج الوظيفي (عملي)",          "type": "lab"    },
+      { "name": "علم الأمراض",                               "type": "theory" },
+      { "name": "النمو والتطور",                             "type": "theory" },
+      { "name": "أخلاقيات المهن الطبية في العصر الرقمي",     "type": "theory" }
+    ],
+    "2-2": [
+      { "name": "علوم الحركة",                      "type": "theory" },
+      { "name": "علوم الحركة (عملي)",               "type": "lab"    },
+      { "name": "تحليل الأنشطة",                   "type": "theory" },
+      { "name": "تحليل الأنشطة (عملي)",            "type": "lab"    },
+      { "name": "الاستقلالية",                     "type": "theory" },
+      { "name": "الاستقلالية (عملي)",              "type": "lab"    },
+      { "name": "أمراض العضلات والعظام",           "type": "theory" },
+      { "name": "علوم الأعصاب (١)",                "type": "theory" },
+      { "name": "علوم الأعصاب (١) (عملي)",         "type": "lab"    },
+      { "name": "إحصاء حيوي",                      "type": "theory" },
+      { "name": "متطلب جامعة اختياري",             "type": "extra"  }
+    ],
+    "3-1": [
+      { "name": "نظريات الأنشطة العلاجية",                             "type": "theory" },
+      { "name": "نظريات الأنشطة العلاجية (عملي)",                      "type": "lab"    },
+      { "name": "الاختلالات النفسية",                                  "type": "theory" },
+      { "name": "الإرشاد النفسي والعلاج الجماعي",                      "type": "theory" },
+      { "name": "الإرشاد النفسي والعلاج الجماعي (عملي)",               "type": "lab"    },
+      { "name": "العلاج الوظيفي للأطفال (١)",                          "type": "theory" },
+      { "name": "العلاج الوظيفي للأطفال (١) (عملي)",                  "type": "lab"    },
+      { "name": "العلاج الوظيفي للاختلالات الجسدية (١)",               "type": "theory" },
+      { "name": "العلاج الوظيفي للاختلالات الجسدية (١) (عملي)",       "type": "lab"    },
+      { "name": "علوم الأعصاب للتأهيل",                                "type": "theory" },
+      { "name": "متطلب جامعة اختياري",                                 "type": "extra"  }
+    ],
+    "3-2": [
+      { "name": "العلاج الوظيفي للاختلالات النفسية الاجتماعية",        "type": "theory" },
+      { "name": "العلاج الوظيفي للاختلالات النفسية الاجتماعية (عملي)","type": "lab"    },
+      { "name": "العلاج الوظيفي للأطفال (٢)",                          "type": "theory" },
+      { "name": "العلاج الوظيفي للأطفال (٢) (عملي)",                  "type": "lab"    },
+      { "name": "العلاج الوظيفي للاختلالات الجسدية (٢)",               "type": "theory" },
+      { "name": "العلاج الوظيفي للاختلالات الجسدية (٢) (عملي)",       "type": "lab"    },
+      { "name": "تأهيل الطرف العلوي بالجبائر والذكاء الاصطناعي",      "type": "theory" },
+      { "name": "تأهيل الطرف العلوي بالجبائر والذكاء الاصطناعي (عملي)","type": "lab"  },
+      { "name": "التأهيل المجتمعي",                                    "type": "theory" },
+      { "name": "التأهيل المجتمعي (عملي)",                             "type": "clinic" }
+    ],
+    "4-1": [
+      { "name": "تدريب سريري أطفال",                             "type": "clinic" },
+      { "name": "تدريب سريري للاختلالات الجسدية",                "type": "clinic" },
+      { "name": "تدريب سريري للاختلالات النفسية الاجتماعية",     "type": "clinic" },
+      { "name": "طرق البحث العلمي والذكاء الاصطناعي",           "type": "theory" },
+      { "name": "متطلب جامعة اختياري",                           "type": "extra"  }
+    ],
+    "4-2": [
+      { "name": "تدريب سريري لمهارات الاستقلالية",               "type": "clinic" },
+      { "name": "تدريب سريري كبار السن",                         "type": "clinic" },
+      { "name": "الإدارة وضبط الجودة والذكاء الاصطناعي",        "type": "theory" },
+      { "name": "مشروع تخرج في العصر الرقمي",                   "type": "theory" },
+      { "name": "متطلب تخصص اختياري",                            "type": "extra"  }
+    ]
+  },
 
   "features": {
-    "showCalendar":    true,
-    "showGPA":         true,
-    "showAssignments": true,
-    "showProgress":    true,
-    "showSchedule":    true,
-    "showEmails":      true
+    "showCalendar":     true,
+    "showGPA":          true,
+    "showAssignments":  true,
+    "showProgress":     true,
+    "showSchedule":     true,
+    "showEmails":       true,
+    "showWhatsapp":     true,
+    "showQuickLinks":   true,
+    "showResources":    true,
+    "pomodoroEnabled":  true
+  }
+}
   }
 }
